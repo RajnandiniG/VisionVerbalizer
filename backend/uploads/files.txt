@@ -1,0 +1,7 @@
+# Important Setup Note:
+Remember to create an empty folder named uploads in the backend directory. This folder will be used to store all the uploaded images processed by the server.
+# Instructions:
+1. Navigate to your backend directory.
+2. Create a folder named uploads. You can do this manually through your file explorer or by using the command line:
+
+This ensures that the backend application has a designated directory for storing uploaded files.
