@@ -6,7 +6,7 @@ A. User Interaction: When the user selects an image and clicks the "Submit" butt
 
 B. Sending the Request: The "getCaptionForImage" function creates a FormData object, appends the image file to it, and makes a POST request to the backend endpoint /generate-caption using axios.
 
-C. HTTP POST Request: The "axios.post" function sends an HTTP POST request to 'http://localhost:1330/generate-caption'. This is the endpoint on the backend where the image file will be sent. The Content-Type header is set to multipart/form-data, which indicates that the request contains file data.
+C. HTTP POST Request: The "axios.post" function sends an HTTP POST request. This is the endpoint on the backend where the image file will be sent. The Content-Type header is set to multipart/form-data, which indicates that the request contains file data.
 
 "displayCaption": The displayCaption function updates the user interface with the returned caption or error message.
 
@@ -23,4 +23,4 @@ In the backend directory, create a file named .env and store your API key as fol
 API_KEY=your-google-gemini-api-key
 
 # Visit the Application:
-Open your browser and navigate to 'http://localhost:8080' to start using VisionVerbalizer.
+Open your browser and start using VisionVerbalizer. Upload any image you want to create captions for and Wohoo there is your Captions. You can Listen or Stop the caption sound anytime you want!!!
