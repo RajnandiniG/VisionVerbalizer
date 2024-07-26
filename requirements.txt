@@ -1,10 +1,15 @@
 **Install node.js from the official site**
-npm init -y
-npm install -g http-server
-npm install express cors
-npm install dotenv @google/generative-ai
-npm install multer
-npm install mime-types
 
+# Run below commands in frontend folder,
+npm install -g http-server
+# Run below commands in backend folder,
+1. npm init -y
+2. npm install @google/generative-ai
+3. npm install express cors
+4. npm install dotenv @google/generative-ai
+5. npm install multer
+6. npm install mime-types
+
+# To run frontend and backend,
 npx http-server ./frontend : to run the frontend
 node server.js : to run the backend
