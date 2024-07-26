@@ -2,13 +2,13 @@
 
 # Run below commands in frontend folder,
 npm install -g http-server
-# Run below commands in backend folder,
+
+# Run below commands in backend and geminiApi folder,
 1. npm init -y
-2. npm install @google/generative-ai
+2. npm install dotenv @google/generative-ai     //Will create a node modules folder inside
 3. npm install express cors
-4. npm install dotenv @google/generative-ai
-5. npm install multer
-6. npm install mime-types
+4. npm install multer
+5. npm install mime-types
 
 # To run frontend and backend,
 npx http-server ./frontend : to run the frontend
