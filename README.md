@@ -24,3 +24,5 @@ API_KEY=your-google-gemini-api-key
 
 # Visit the Application:
 Open your browser and start using VisionVerbalizer. Upload any image you want to create captions for and Wohoo there is your Captions. You can Listen or Stop the caption sound anytime you want!!!
+<img width="670" alt="image" src="https://github.com/user-attachments/assets/8d56ce9b-42c2-4272-9332-fc8acbd125c3">
+
